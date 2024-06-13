@@ -1824,4 +1824,5 @@ export const dynamic = 'force-dynamic'
 - sign up for account
 - create github repo
 #   n e x t 1 4 - s m i l g a - l e c t u r e  
+ #   n e x t 1 4 - s m i l g a - l e c t u r e  
  
