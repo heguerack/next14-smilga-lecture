@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import DeleteForm from '@/components/DeleteForm'
+// import DeleteForm from '@/components/DeleteForm'
 import getAllTasksAction from '@/actions/getAllTasksAction'
 
 export default async function TaskList() {
@@ -20,7 +20,7 @@ export default async function TaskList() {
             <Link href={`/tasks/edit/${task.id}`} className='bg-green-400 p-1'>
               EDIT
             </Link>
-            <DeleteForm id={task.id} />
+            {/* <DeleteForm id={task.id} /> */}
             {/* <DeleteForm id={task.id} /> */}
           </div>
         </div>
