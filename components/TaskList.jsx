@@ -1,5 +1,5 @@
 import Link from 'next/link'
-// import DeleteForm from './DeleteForm'
+import DeleteForm from './DeleteForm'
 import getAllTasksAction from '@/actions/getAllTasksAction'
 
 export default async function TaskList() {
