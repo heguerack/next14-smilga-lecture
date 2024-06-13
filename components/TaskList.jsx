@@ -21,6 +21,7 @@ export default async function TaskList() {
               EDIT
             </Link>
             <DeleteForm id={task.id} />
+            {/* <DeleteForm id={task.id} /> */}
           </div>
         </div>
       ))}
